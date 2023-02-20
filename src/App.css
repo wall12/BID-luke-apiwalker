@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.container-contenido{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items:center ;
+  margin-top: 50px;
+
+}
+.select{
+  height: 40px;
+  width: 80px;
+  text-align: center;
+  border: 2px solid;
+  margin: 5px;
+  background-color: cadetblue;
+  color: white;
+}
+.input{
+  height: 30px;
+  width: 100px;
+  text-align: center;
+  margin: 5px;
+  cursor: pointer;
+  background-color: white;
+  color: black;
+}
+.btn{
+  background-color: gray;
+  color: white;
+  height: 30px;
+  width: 100px;
+  text-align: center;
+}
+
+.result{
+  margin: auto;
+  display: flex;
+  align-items: left;
+  padding-left: 30px;
+  background-color: white;
+}
